@@ -1,0 +1,16 @@
+# Environment configuration
+environment: production
+version: "1.0.098024"
+
+settings:
+  max_connections: 100
+  timeout: 30
+  retry_attempts: 3
+  
+logging:
+  level: INFO
+  format: json
+  
+monitoring:
+  enabled: true
+  interval: 60
